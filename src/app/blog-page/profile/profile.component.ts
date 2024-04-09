@@ -5,11 +5,12 @@ import { SidebarComponent } from '../sidebar/sidebar.component';
 import { HeaderComponent } from '../header/header.component';
 import { ProfileContentComponent } from '../profile-content/profile-content.component';
 import { ProfileSidebarComponent } from '../profile-sidebar/profile-sidebar.component';
+import { BreadcrumbComponent } from '../breadcrumb/breadcrumb.component';
 
 @Component({
   selector: 'app-profile',
   standalone: true,
-  imports: [NavbarComponent, FooterComponent, HeaderComponent, ProfileContentComponent, ProfileSidebarComponent],
+  imports: [NavbarComponent, FooterComponent, HeaderComponent, ProfileContentComponent, ProfileSidebarComponent, BreadcrumbComponent],
   templateUrl: './profile.component.html',
   styleUrl: './profile.component.scss'
 })
