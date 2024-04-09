@@ -1,0 +1,89 @@
+
+h1{
+    font-size: 1.7em;
+    font-weight: 700;
+    line-height: 1.5em;
+    text-transform: uppercase;
+  }
+  a{
+    text-decoration: none;
+    color: #090b08;
+  }
+  .btn{
+    display: inline-block;
+    padding: .5em 1.5em;
+    border: solid 1px #090b08;  
+    transition: all .3s ease-in;
+  }
+  .btn:hover, .btn:focus{
+    transform: translate(0px, -2px);
+    -webkit-box-shadow: 0px 10px 7px -9px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 10px 7px -9px rgba(0,0,0,0.75);
+    box-shadow: 0px 10px 7px -9px rgba(0,0,0,0.75);
+    transition: all .3s ease-out; 
+  }
+  
+  /* Hero Section */
+  .hero {
+      display: flex;
+      height: 330px;
+      align-items: center;
+      background: #f5d9d6 url("https://i.postimg.cc/9fTzqwtw/flower2.png") no-repeat right bottom;
+  }
+  .hero-img img{
+    display: none;
+  }
+  .hero-text{
+    padding: 0 2em 7.5em;
+  }
+  
+  /* Responsive Style */
+  @media(min-width: 320px){
+    
+  }
+  @media(min-width: 576px){
+    /*  Global  */
+    h1{
+      font-size: 2em;
+    }
+    
+    /*  Hero Section  */
+    .hero{
+      background-image: none;
+      justify-content: center;
+      overflow: hidden;
+    }
+    .hero-img{
+      padding-top: 6.5em;
+    }
+    .hero-img img{
+      display: block;
+      width: 14em;
+      height: auto;
+    }
+    .hero-text{
+      padding: 0 2em;
+    }
+  }
+  @media(min-width: 768px){
+    /*  Global  */
+  }
+  @media(min-width: 992px){
+    /*  Global  */
+    
+    /*  Hero Section  */
+    .hero-img img{
+      width: 14.5em;
+    }
+  }
+  @media(min-width: 1200px){
+    /*  Global  */
+    h1{
+      font-size: 2.4em;
+    }
+    
+    /*  Hero Section  */
+    .hero-img img{
+      width: 15.5em;
+    }
+  }
