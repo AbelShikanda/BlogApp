@@ -10,6 +10,8 @@ import { MainBlogContentComponent } from './main-blog-content/main-blog-content.
 import { SingleBlogContentComponent } from './single-blog-content/single-blog-content.component';
 import { BlogSingleComponent } from './blog-single/blog-single.component';
 import { SidebarComponent } from './sidebar/sidebar.component';
+import { ProfileContentComponent } from './profile-content/profile-content.component';
+import { ProfileSidebarComponent } from './profile-sidebar/profile-sidebar.component';
 
 const routes: Routes = [
   {path: 'blog', component:BlogComponent},
@@ -22,6 +24,8 @@ const routes: Routes = [
   {path: 'single-blog-content', component:SingleBlogContentComponent},
   {path: 'blog-single', component:BlogSingleComponent},
   {path: 'sidebar', component:SidebarComponent},
+  {path: 'profile-content', component:ProfileContentComponent},
+  {path: 'profile-sidebar', component:ProfileSidebarComponent},
 ];
 
 @NgModule({
