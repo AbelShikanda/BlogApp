@@ -6,6 +6,10 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { FooterComponent } from './footer/footer.component';
 import { HeaderComponent } from './header/header.component';
 import { BreadcrumbComponent } from './breadcrumb/breadcrumb.component';
+import { MainBlogContentComponent } from './main-blog-content/main-blog-content.component';
+import { SingleBlogContentComponent } from './single-blog-content/single-blog-content.component';
+import { BlogSingleComponent } from './blog-single/blog-single.component';
+import { SidebarComponent } from './sidebar/sidebar.component';
 
 const routes: Routes = [
   {path: 'blog', component:BlogComponent},
@@ -14,6 +18,10 @@ const routes: Routes = [
   {path: 'footer', component:FooterComponent},
   {path: 'header', component:HeaderComponent},
   {path: 'breadcrumb', component:BreadcrumbComponent},
+  {path: 'main-blog-content', component:MainBlogContentComponent},
+  {path: 'single-blog-content', component:SingleBlogContentComponent},
+  {path: 'blog-single', component:BlogSingleComponent},
+  {path: 'sidebar', component:SidebarComponent},
 ];
 
 @NgModule({
