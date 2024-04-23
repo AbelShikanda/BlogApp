@@ -22,7 +22,7 @@ const routes: Routes = [
   {path: 'breadcrumb', component:BreadcrumbComponent},
   {path: 'main-blog-content', component:MainBlogContentComponent},
   {path: 'single-blog-content', component:SingleBlogContentComponent},
-  {path: 'blog-single', component:BlogSingleComponent},
+  {path: 'blog-single/:id', component:BlogSingleComponent},
   {path: 'sidebar', component:SidebarComponent},
   {path: 'profile-content', component:ProfileContentComponent},
   {path: 'profile-sidebar', component:ProfileSidebarComponent},
